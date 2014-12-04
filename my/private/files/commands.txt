@@ -1,0 +1,500 @@
+  170  ls
+  171  less longText.txt
+  172  less longText.txt
+  173  head -3 longText.txt
+  174  tail -3 longText.txt
+  175  tail -f log.txt
+  176  cd Desktop
+  177  ls
+  178  cd ..
+  179  ls
+  180  cd Desktop
+  181  tail -f log.txt
+  182  tail -f /private/var/log/system.log
+  183  man ls
+  184  ls
+  185  cd ..
+  186  ls
+  187  cd SomeDir
+  188  mv SomeDir /Desktop/SomeDir
+  189  ls
+  190  cd ..
+  191  mv SomeDir ../Desktop
+  192  sudo mv SomeDir ../Desktop
+  193  ls
+  194  cd..
+  195  cd ..
+  196  ls
+  197  rmdir -r Desktop
+  198  ls
+  199  mv Desktop ./daijin/Desktop/SomeDir
+  200  sudo mv Desktop ./daijin/Desktop/SomeDir
+  201  ls
+  202  cd daijin
+  203  ls
+  204  cd Deskto
+  205  cd Desktop
+  206  ls
+  207  cat combined.txt | less
+  208  ls -lA |less
+  209  cat combined.txt > newCombined.txt
+  210  cd SomeDir
+  211  cat combined.txt > newCombined.txt
+  212  ls
+  213  cat combined > newCombined.txt
+  214  cat combined > newCombined2.txt
+  215  ls
+  216  ls *.txt
+  217  ls new*.txt
+  218  ls *
+  219  ls *n*
+  220  find . -name "*.txt" -print
+  221  cd ~find . -name "*.txt" -print
+  222  cd
+  223  cd
+  224  ~find . -name "*.txt" -print
+  225  ~find
+  226  cd
+  227  cd find
+  228  cd ~ find . -name "*.txt" -print
+  229  find . -name "*.txt" -print
+  230  grep binary *.txt
+  231  cd
+  232  cd Desktop
+  233  cd someDir
+  234  grep binary *.txt
+  235  find -name "*.txt" -print | grep README
+  236  find ~ -name "*.txt" -print | grep README
+  237  wc longText.txt
+  238  find ~ -name "*.txt" -print | grep README | wc -l
+  239  ls
+  240  ls -l
+  241  chmod u+w combined
+  242  ls -l
+  243  chmod u+x combined
+  244  ls -l
+  245  cat > hello.rb
+  246  cat hello.rb
+  247  ruby hello.rb
+  248  irb
+  249  ./hello.rb-bash
+  250  which ruby
+  251  which python
+  252  which jin
+  253  cd ..
+  254  cd..
+  255  cd ..
+  256  cd ..
+  257  cd ..
+  258  cd ..
+  259  find ~ -name "权力的游戏*" -print
+  260  echo SEASON
+  261  echo $SEASON
+  262  echo $FOOD
+  263  pwd
+  264  ls
+  265  cd Downloads
+  266  ls
+  267  cd Challenge 1
+  268  cd Challenge_1
+  269  cd "Challenge 1"
+  270  mkdir New
+  271  ls
+  272  touch newFile
+  273  mv newFile ./New/newFile
+  274  ls
+  275  cd New
+  276  ls
+  277  pwd
+  278  cd ..
+  279  pwd
+  280  ls
+  281  cd Text Files
+  282  cd 'Text Files
+  283  cd 'Text Files'
+  284  cd ./
+  285  cd ..
+  286  ls
+  287  man mkdir
+  288  mkdir ./Foo/Bar/folders
+  289  man mkdir
+  290  man mkdir
+  291  mkdir Foo/Bar/folders
+  292  mkdir -p Foo/Bar/folders
+  293  ls
+  294  cd Foo
+  295  ls
+  296  cd..
+  297  cd .
+  298  cd ..
+  299  ls
+  300  ls -l
+  301  rmdir 'Empty Folder'
+  302  ls
+  303  rmdir 'New'
+  304  rmdir -r 'New'
+  305  man rmdir
+  306  rmdir -p 'New'
+  307  man rmdir
+  308  rm -r New
+  309  ls
+  310  cd "Text Files"
+  311  ls
+  312  cp 'More text.txt' 'Learn to code'
+  313  ls
+  314  cat 'Learn to code'
+  315  head -5 'Learn to code'
+  316  head -5 'Learn to code'
+  317  tail -5 'More Text'
+  318  ls
+  319  tail -5 'More Text.txt'
+  320  less 'Learn to Code'
+  321  ls
+  322  ls *.txt
+  323  find . -name "*.txt" -print
+  324  find -name "*.txt" -print
+  325  find . -name "*.txt" -print
+  326  find .. -name "*.txt" -print
+  327  cd ~
+  328  ls
+  329  cd Downloads/'Challenge 1'
+  330  cd ~
+  331  find . -name "*.mp3" -print | less
+  332  cd Music
+  333  ls
+  334  cd iTunes
+  335  ls
+  336  cd ~/Download
+  337  cd ~/Downloads
+  338  cd "Challenge 1"
+  339  ls
+  340  cd 'Text Files'
+  341  ls
+  342  grep a 'Learn to code'
+  343  grep a 'Learn to code' | less
+  344  grep code 'Learn to code' | less
+  345  ls
+  346  touch 'blank'
+  347  ls *.txt
+  348  wc 'Learn to code'
+  349  wc 'Less text'
+  350  wc 'Less text.txt'
+  351  cat 'Less text.txt'
+  352  find . -name | grep "*.txt"
+  353  find . -name -print | grep "*.txt"
+  354  find . -name -print | grep "*.txt"
+  355  find . -name "*.txt" | grep "*.txt"
+  356  find . -name "*" -print | grep "*.txt"
+  357  ls
+  358  find . -name "*" -print | grep "*.txt" | wc
+  359  find . -name "*" -print | grep "*.txt" | wc -l
+  360  find . -name "*" -print
+  361  find . -name "*" -print | grep txt
+  362  find . -name "*" -print | grep txt | wc
+  363  find . -name "*" | grep txt | wc
+  364  find . -name "*"
+  365  ~
+  366  cd ~
+  367  find . -name 'b*'
+  368  find . -name 'b*' | head -5
+  369  man wc
+  370  find . -name 'b*' | wc
+  371  whoami
+  372  cd Desktop
+  373  ls
+  374  ls -l
+  375  chmod a-drw SomeDir
+  376  chmod a-drx SomeDir
+  377  chmod a-rwx SomeDir
+  378  chmod a+rwx SomeDir
+  379  cd SomeDir
+  380  ruby hello.rb
+  381  irb
+  382  ./hello.rb
+  383  chmod u+x hello.rb
+  384  ./hello.rb
+  385  which ruby
+  386  ./hello.rb
+  387  hello.rb
+  388  ./hello.rb
+  389  hello.rb
+  390  ./hello.rb
+  391  head 'which irb'
+  392  head 'which irb' #!/usr/bin/env ruby
+  393  which irb
+  394  head /usr/bin/irb
+  395  ls -l /etc
+  396  cd /
+  397  cd /
+  398  cd ~
+  399  ls
+  400  cd /
+  401  ls
+  402  do
+  403  env
+  404  env
+  405  echo $HOME
+  406  echo 'hi
+  407  '
+  408  cd Desktop
+  409  ls
+  410  cd ~
+  411  cd Desktop
+  412  cd someDir
+  413  echo "Hello" > hello.txt
+  414  ls
+  415  echo hello.txt
+  416  cat hello.txt
+  417  head hello.txt
+  418  less hello.txt
+  419  echo $PATH
+  420  ls
+  421  cd /
+  422  cd /usr/local/bin/ls
+  423  cd ./usr/local/bin/ls
+  424  cd ./usr/local/bin
+  425  ls
+  426  head pydoc3
+  427  cd ~
+  428  rvm use 1.9.3
+  429  export SEASON = winter
+  430  export SEASON=winter
+  431  echo $SEASON
+  432  export PATH=$PATH:/Users/daijin
+  433  echo PATH
+  434  echo $PATH
+  435  echo $SEASON
+  436  echo "export SEASON=winter" >> ~/.bash_profile
+  437  cat ~/.bash_profile
+  438  export FOOD=italian
+  439  ps
+  440  ps x
+  441  ps x | wc
+  442  vi myFile
+  443  exit
+  444  echo $DAY
+  445  echo $SEASON
+  446  env
+  447  export DAY=4
+  448  echo $day
+  449  echo $DAY
+  450  export FOOD=italian
+  451  export FOOD=chinese
+  452  cd Desktop
+  453  cd ~
+  454  cd Download
+  455  cd Downloads
+  456  cd "Challenge 1"
+  457  cd "Text Files"
+  458  ls
+  459  ls -l "More text.txt"
+  460  chmod g+w "More text"
+  461  chmod g+w "More text.txt"
+  462  ls -l "More text.txt"
+  463  chmod o-r "More text.txt"
+  464  ls -l "More text.txt"
+  465  cd ..
+  466  mkdir "No Change"
+  467  chmod u-w "No Change"
+  468  ls
+  469  cd 'No Change'
+  470  touch hello
+  471  echo "hello, world"
+  472  cd ..
+  473  touch hello.rb
+  474  ./hello.rb > puts "hello, world"
+  475  cat > hello.rb
+  476  ruby ./hello.rb
+  477  which ruby
+  478   ./hello.rb
+  479  sudo  ./hello.rb
+  480  chmod u+x hello.rb
+  481  ./hello.rb
+  482  ps
+  483  ps x
+  484  ps x | grep Google
+  485  ps x | grep Google | wc
+  486  ps x | grep Google | wc | chrome.list
+  487  ps x | grep Google | wc | cat > chrome.list
+  488  ls
+  489  head chrome.list
+  490  ps x | grep Google | wc -l | cat > chrome.list
+  491  head chrome.list
+  492  echo "export FOOD=chinese" ~./bash/profile
+  493  echo "export FOOD=chinese" > ~./bash/profile
+  494  echo "export FOOD=chinese" > ~/.bash/profile
+  495  $FOOD
+  496  echo $FOOD
+  497  ps x | grep Google | wc -l | echo > chrome.list
+  498  ps x | grep Google | wc -l | echo > chrome2.list
+  499  ls
+  500  history
+  501  cd Desktop
+  502  mkdir -p my/private/files
+  503  mkdir -p my/public/files
+  504  touch my/public/files/t-vars.env
+  505  cat my/public/files/t-vars.env > List of env vars that begin with T
+  506  cd my/private/files
+  507  ls
+  508  touch t-vars.env
+  509  ls
+  510  echo t-vars.env >
+  511  cat > t-vars.env
+  512  cat > t-vars.env
+  513  less t-vars.env
+  514  cat > t-vars.env
+  515  env
+  516  env | grep T*
+  517  env | grep T
+  518  env | grep T* | wc -l
+  519  env | grep T | wc -l
+  520  man grep
+  521  env | grep T.
+  522  env | grep "T*"
+  523  env | grep T.*
+  524  env | grep ^T.*
+  525  env | grep ^T.* | cat >> t-vars.env
+  526  cat t-vars.env
+  527  echo "export TESTING_MAKERS=working" > ~/.bash_properties
+  528  echo $TESTING_MAKERS
+  529  echo "export TESTING_MAKERS=working" > ~/.bash_profile
+  530  echo $TESTING_MAKERS
+  531  export TESTING_MAKERS=working
+  532  env
+  533  echo "export TESTING_MAKERS=working" > ~/.bash_profile
+  534  env | grep ^T.*
+  535  env | grep ^T.* | wc -l | cat > ~./Desktop/my/public/files
+  536  env | grep ^T.* | wc -l | cat > ~/Desktop/my/public/files
+  537  env | grep ^T.* | wc -l | cat > ~/Desktop/my/public/files/t-vars.count
+  538  cd ..
+  539  cd ..
+  540  cd private
+  541  cd files
+  542  ls
+  543  cat t-vars.env
+  544  env | grep ^T.* | wc -l
+  545  rm t-vars.env
+  546  count
+  547  count=`6`
+  548  count=`"6"`
+  549  count=`env | grep ^T.* | wc -l`
+  550  $count
+  551  echo "$count"
+  552  echo "`env | grep ^T.* | wc -l`"
+  553  echo "hello `env | grep ^T.* | wc -l`"
+  554  echo "Overall count:  `env | grep ^T.* | wc -l | grep \d+`"
+  555  echo "Overall count:  `env | grep ^T.* | wc -l | grep "\d+"`"
+  556  echo "Overall count:  `env | grep ^T.* | wc -l | grep \d\+`"
+  557  echo "Overall count:  `env | grep ^T.* | wc -l | grep [0-9].`"
+  558  env | grep ^T.* | wc -l | grep [0-9]
+  559  man wc
+  560  echo "Overall count:  `env | grep ^T.* | wc -l`"
+  561  echo "Overall count:  `env | grep ^T.* | wc -l`" > t-vars.count
+  562  ls
+  563  cat t-vars.count
+  564  ls -l
+  565  cd ..
+  566  cd ...
+  567  cd ..
+  568  cd files
+  569  cd private
+  570  cd files
+  571  ls
+  572  cd ..
+  573  cd ..
+  574  cd public
+  575  cd files
+  576  ls
+  577  mv t-vars.env ~/Desktop/my/private/files
+  578  ls
+  579  cat t-vars.count
+  580  cd ~/Desktop/my/public/files
+  581  ls
+  582  cd ..
+  583  cd ..
+  584  ls
+  585  cd private
+  586  ls
+  587  cd files 
+  588  ls
+  589  cat t-vars.env
+  590  ls
+  591* t-vars.
+  592  less t-vars.env
+  593  less t-vars.count
+  594  ls
+  595  mv t-vars.count ~/Desktop/my/public/files/t-vars.count
+  596  ls
+  597  cd ~Desktop/my/public/files
+  598  cd ~/Desktop/my/public/files
+  599  ls
+  600  less t-vars.count
+  601  cd ~Desktop/my/private/files
+  602  cd ~/Desktop/my/private/files
+  603  ls
+  604  history
+  605  t-vars.env > List of env vars that begin with T
+  606  cat t-vars.env > List of env vars that begin with T
+  607  cat t-vars.env >
+  608  cat t-vars.env >
+  609  ls
+  610  rm List
+  611  ls
+  612  cat t-vars.env
+  613  cat t-vars.env>
+  614  echo t-vars.env >
+  615  ls
+  616  cat > t-vars.env
+  617  cat t-vars.env
+  618  env | grep ^T.*
+  619  env | grep ^T.* | wc -l
+  620  env | grep ^T.* | head -2
+  621  env | grep ^T.* | head -2 >> t-vars.env
+  622  cat t-vars.env
+  623  env | grep ^T.* | tail -3 >> t-vars.env
+  624  cat t-vars.env
+  625  ls -l
+  626  chmod go-r
+  627  ls -l
+  628  chmod go-r t-vars.env
+  629  ls -l
+  630  cd ..
+  631  ls -l
+  632  chmod go-x files
+  633  cd ~/Desktop/my/public/files
+  634  ls
+  635  ls -l
+  636  chmod go+w t-vars.count
+  637  ls -l
+  638  pwd
+  639  touch text-files-count.txt
+  640  find . -name "*.txt" | cat > text-files-count.txt
+  641  find ~ -name "*.txt" | cat > text-files-count.txt
+  642  head text-files-count.txt
+  643  find ~ -name "*.txt" | wc -l | cat > text-files-count.txt
+  644  ls
+  645  cat text-files-count.txt
+  646  cd ~/Desktop/my/private/files
+  647  touch first-three-env.txt
+  648  env
+  649  sort env
+  650  man ls
+  651  ls
+  652  env
+  653  man env
+  654  env | sort
+  655  sort 1 2 3
+  656  env | sort
+  657  env | sort | head -3
+  658  env | sort | head -3 > cat first-three-env.txt
+  659  ls
+  660  cat cat
+  661  rm cat
+  662  ls
+  663  cat first-three-env.txt
+  664  env | sort | head -3 | cat > first-three-env.txt
+  665  ls
+  666  cat first-three-env.txt
+  667  ls
+  668  pwd
+  669  history | cat > commands.txt

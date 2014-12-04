@@ -1,0 +1,3 @@
+Apple_PubSub_Socket_Render=/tmp/launch-xdBDRY/Render
+DISPLAY=/tmp/launch-wtD7xh/org.macosforge.xquartz:0
+HOME=/Users/daijin
