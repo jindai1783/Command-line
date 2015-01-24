@@ -1,4 +1,3 @@
-Command-line
-============
+# Command-line
 
-Repository for week 1 exercises
+Play around with command line.
