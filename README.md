@@ -1,3 +1,3 @@
 # Command-line
 
-Play around with command line.
+This repository is a note of practising using command line.
